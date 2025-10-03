@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Instituto Superior de Formación Técnica N°118</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1173d4",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Public Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+    <div class="flex flex-col min-h-screen">
+        <header
+            class="bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200 dark:border-gray-800">
+            <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 text-primary">
+                        <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <h1 class="text-xl font-bold text-gray-900 dark:text-white">ISFT N°118</h1>
+                </div>
+                <div class="hidden md:flex items-center gap-8">
+                    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors"
+                        href="#">Inicio</a>
+                    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors"
+                        href="#">Carreras</a>
+                    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors"
+                        href="#">Nosotros</a>
+                    <a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors"
+                        href="#">Contacto</a>
+                </div>
+                <button
+                    class="bg-primary text-white px-4 py-2 rounded-lg text-sm font-bold hover:bg-primary/90 transition-colors">
+                    Ingresar
+                </button>
+            </nav>
+        </header>
+        <main class="flex-grow container mx-auto px-6 py-12">
+            <div class="max-w-4xl mx-auto">
+                <div class="mb-12 text-center">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">Tecnicatura
+                        Superior en Desarrollo de Software</h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-400">
+                        Esta carrera forma profesionales capaces de analizar, diseñar, desarrollar, implementar y
+                        mantener sistemas de software, aplicando metodologías y tecnologías actuales. Los egresados
+                        podrán trabajar en empresas de desarrollo, consultorías, o de forma independiente.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 mb-16">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Objetivos</h3>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            Formar profesionales con sólidos conocimientos en desarrollo de software, capaces de
+                            adaptarse a las nuevas tecnologías y a las demandas del mercado laboral. Se busca que los
+                            estudiantes adquieran habilidades en programación, bases de datos, ingeniería de software, y
+                            gestión de proyectos.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Salida Laboral</h3>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            Los egresados podrán desempeñarse como desarrolladores de software, analistas programadores,
+                            diseñadores de sistemas, consultores tecnológicos, y gestores de proyectos de software en
+                            empresas de diversos sectores o de forma autónoma.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="bg-background-light dark:bg-background-dark/50 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800 mb-12">
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">Plan de Estudios</h3>
+                    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4">
+                        <div class="flex items-center gap-3"><span
+                                class="w-2 h-2 bg-primary rounded-full"></span><span>Programación I</span></div>
+                        <div class="flex items-center gap-3"><span
+                                class="w-2 h-2 bg-primary rounded-full"></span><span>Bases de Datos I</span></div>
+                        <div class="flex items-center gap-3"><span
+                                class="w-2 h-2 bg-primary rounded-full"></span><span>Ingeniería de Software</span></div>
+                        <div class="flex items-center gap-3"><span
+                                class="w-2 h-2 bg-primary rounded-full"></span><span>Redes de Computadoras</span></div>
+                        <div class="flex items-center gap-3"><span
+                                class="w-2 h-2 bg-primary rounded-full"></span><span>Sistemas Operativos</span></div>
+                        <div class="flex items-center gap-3"><span
+                                class="w-2 h-2 bg-primary rounded-full"></span><span>Programación II</span></div>
+                        <div class="flex items-center gap-3"><span
+                                class="w-2 h-2 bg-primary rounded-full"></span><span>Bases de Datos II</span></div>
+                        <div class="flex items-center gap-3"><span
+                                class="w-2 h-2 bg-primary rounded-full"></span><span>Desarrollo Web</span></div>
+                        <div class="flex items-center gap-3"><span
+                                class="w-2 h-2 bg-primary rounded-full"></span><span>Aplicaciones Móviles</span></div>
+                        <div class="flex items-center gap-3 col-span-1 sm:col-span-2 lg:col-span-1"><span
+                                class="w-2 h-2 bg-primary rounded-full"></span><span>Gestión de Proyectos</span></div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button
+                        class="bg-primary text-white px-8 py-3 rounded-lg text-lg font-bold hover:bg-primary/90 transition-transform transform hover:scale-105 shadow-lg">
+                        Inscribite ahora
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
